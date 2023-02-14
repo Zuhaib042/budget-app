@@ -12,10 +12,10 @@
   <body>
     <p class="notice"><%= notice %></p>
     <p class="alert"><%= alert %></p>
+    <% if user_signed_in? %>
+      <%= render 'shared/navbar'%>
+    <% end %>
     <main class="container mx-auto mt-5 px-5">
-      <% if user_signed_in? %>
-        <%= link_to "Sign out", destroy_user_session_path, data: { turbo_method: :delete }, class: 'text-blue-600' %>
-      <% end %>
       <%= yield %>
     </main>
   </body>
