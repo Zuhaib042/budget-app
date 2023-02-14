@@ -9,6 +9,11 @@ module.exports = {
     './node_modules/flowbite/**/*.js',
   ],
   theme: {
+    colors: {
+      'main': '#3778c2',
+      'second': '#5fb523',
+      'text': '#434b54',
+    },
     extend: {
       fontFamily: {
         sans: ['Figtree', 'sans serif'],
