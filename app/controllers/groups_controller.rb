@@ -3,6 +3,11 @@ class GroupsController < ApplicationController
   def index
     @groups = @user.groups.all
   end
+
+  def show
+    @group = Group.find(params[:id])
+    @entities = @group.entities.order(created_at: :desc)
+  end
   
   def new
    @group = Group.new
