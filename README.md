@@ -102,7 +102,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 📹 Project Documentation
 
-[Video Link](https://drive.google.com/file/d/1uZ6EEhMtGskd0B_50qaepjqRxjANJZEQ/view?usp=sharing)
+[Video Link](https://youtu.be/ym6x0IwJQS8)
 
 <!-- GETTING STARTED -->
 
