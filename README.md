@@ -90,7 +90,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- ![Live link](https://budget-app-83tq.onrender.com)
+- [Live Demo link](https://budget-app-83tq.onrender.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -102,7 +102,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 📹 Project Documentation
 
-![video](https://drive.google.com/file/d/1uZ6EEhMtGskd0B_50qaepjqRxjANJZEQ/view?usp=sharing)
+[Video Link](https://drive.google.com/file/d/1uZ6EEhMtGskd0B_50qaepjqRxjANJZEQ/view?usp=sharing)
 
 <!-- GETTING STARTED -->
 
