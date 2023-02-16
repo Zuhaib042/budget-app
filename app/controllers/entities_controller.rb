@@ -17,9 +17,9 @@ class EntitiesController < ApplicationController
     @group.entities << @entity
 
     if @entity.save
-      redirect_to group_entities_path(@group), notice: 'Category has been added successfully'
+      redirect_to group_entities_path(@group), notice: 'Transaction has been added successfully'
     else
-      flash.now[:error] = 'Category could not be saved, try again'
+      flash.now[:error] = 'Transaction could not be saved, try again'
       render :new
     end
   end
