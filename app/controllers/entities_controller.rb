@@ -12,7 +12,7 @@ class EntitiesController < ApplicationController
   end
    
   def create
-    @entity = Entity.create(**entity_params, user_id: @user.id)
+    @entity = Entity.create(**entity_params, author_id: @user.id)
     @group = Group.find(params[:group_id])
     @group.entities << @entity
 
@@ -42,7 +42,7 @@ class EntitiesController < ApplicationController
   def update
     @group = Group.find(params[:group_id])
     @entity = @group.entities.find(params[:id])
-    if @entity.update(**entity_params, user_id: @user.id)
+    if @entity.update(**entity_params, author_id: @user.id)
       redirect_to group_entities_path(@group) , notice: 'Category has been updated successfully'
     else
       render :edit, status: :unprocessable_entity

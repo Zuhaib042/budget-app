@@ -14,7 +14,7 @@ class GroupsController < ApplicationController
   end
   
   def create
-    @group = Group.create(**group_params, user_id: @user.id)
+    @group = Group.create(**group_params, author_id: @user.id)
 
     if @group.save
       redirect_to groups_path, notice: 'Category has been added successfully'
