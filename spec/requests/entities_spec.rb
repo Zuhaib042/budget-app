@@ -8,7 +8,7 @@ RSpec.describe 'Entities', type: :request do
       email: 'zuhaib@example.com',
       password: '123456'
     )
-   @group = Group.create(name: 'Shopping', user_id: @user.id)
+   @group = Group.create(name: 'Shopping', author_id: @user.id)
   end
 
   before do
