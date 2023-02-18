@@ -1,0 +1,21 @@
+<h1 class="text-2xl font-bold text-text text-center">Categories</h1>
+<% @groups.each do |group| %>
+  <div class="flex justify-between items-center">
+    <div class="flex items-center gap-3 my-3">
+      <%= image_tag group.icon, class: 'object-fit rounded-full h-20 w-20 ' %>
+      <span>
+        <%= link_to group.name, group_entities_path(group) %>
+      </span>
+      <span>
+        $<%= group.entities.reduce(0) { |sum, e| sum + e.amount } %>
+      </span>
+    </div>
+    <div class="flex gap-2">
+      <%= link_to "Edit", edit_group_path(group), class: "font-medium p-1 rounded bg-blue-500 text-white dark:text-white hover:underline" %>
+      <%= link_to "Delete", group_path(group), data:  { turbo_method: :delete }, class: "font-medium p-1 rounded bg-red-500 text-white dark:text-white hover:underline" %>
+    </div>
+  </div>
+<% end %>
+<div class="fixed bottom-0 left-0 right-0 sm:mx-20 py-8 flex">
+  <%= link_to 'New Category', new_group_path ,  class: 'w-full bg-second focus:bg-green-500 hover:bg-lightgreen-700 text-white py-2 px-4 text-center font-semibold' %>
+</div>
