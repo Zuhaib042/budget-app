@@ -160,7 +160,7 @@ To run tests, run the following command:
 
 - GitHub: [@Zuhaib042](https://github.com/Zuhaib042)
 - Twitter: [@Zuhaib042](https://twitter.com/Zuhaib042)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/zuhaib-amjad/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
